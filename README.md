@@ -1,8 +1,7 @@
 # Qetesh
-**Qetesh** is a tiny, blasphemous Python project built on the top of [`scrapy`](http://scrapy.org); when executed, the script will start digging the website `youporn.com` for suitable spam messages.
+Qetesh is a tiny, blasphemous Python project built on the top of [`scrapy`](http://scrapy.org); when executed, the script will start digging the website `youporn.com` for user's comments.
 
-# Setup and installation
-...We had to make sure - *somehow* - you are not just another irresponsible script kiddie, didn't we?
+![Sample messages](http://i.stack.imgur.com/6bK8o.png)
 
 # Some examples
 Take a look at [`@wankerautomaton`](https://twitter.com/wankerautomaton) for a nice showcase of the outrageous one-liners this script can generate.
