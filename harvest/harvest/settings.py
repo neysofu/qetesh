@@ -3,10 +3,10 @@ SPIDER_MODULES = ['harvest.spiders']
 NEWSPIDER_MODULE = 'harvest.spiders'
 
 DOWNLOAD_DELAY = 3
-CONCURRENT_REQUESTS = 2
+CONCURRENT_REQUESTS = 4
 COOKIES_ENABLED = False
 
-SCHEDULER_DIR = 'cache'
+JOBDIR = '__scheduler__'
 FEED_URI = 'crawled/data.csv'
 FEED_FORMAT = 'csv'
 
