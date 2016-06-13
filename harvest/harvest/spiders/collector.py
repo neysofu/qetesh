@@ -35,7 +35,8 @@ class BotCollector(scrapy.spiders.BaseSpider):
         return msg
 
     def nextPage(self, soup):
-        url = (BotCollector.__home__ + soup
+        url = (
+            BotCollector.__home__ + soup
             .find('div', {'id':'next'})
             .find('div', {'class':'prev-next'})
             .find('a')['href']
