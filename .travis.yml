@@ -7,7 +7,6 @@ before_install:
   - sudo apt-get -qq update
 install:
   - pip install -r requirements.txt
-# It doesn't really make much sense to build tests.
-# The website is always prone to change, and in no way we can fix that.
 script:
-  - nosetests
+  - scrapy bench
+  - scrapy crawl --set CLOSESPIDER_ITEMCOUNT=1 collector

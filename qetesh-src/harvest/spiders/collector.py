@@ -2,7 +2,7 @@ import bs4
 import scrapy
 from harvest.items import BotUserComment
 
-class BotCollector(scrapy.spiders.BaseSpider):
+class BotCollector(scrapy.spiders.Spider):
 
     __home__ = 'http://www.youporn.com'
     __ajax__ = __home__ + '/ajax/video/comments/'
