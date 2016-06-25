@@ -3,9 +3,11 @@ python:
   - "3.3"
   - "3.4"
   - "3.5"
+before_install:
+  - sudo apt-get -qq update
 install:
-  - pip install scrapy
-  - pip install bs4
+  - pip install -r requirements.txt
+# It doesn't really make much sense to build tests.
+# The website is always prone to change, and in no way we can fix that.
 script:
-  - cd src
-  - scrapy crawl collector
+  - nosetests
