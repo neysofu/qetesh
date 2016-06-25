@@ -5,6 +5,7 @@ python:
   - "3.5"
 install:
   - pip install scrapy
+  - pip install bs4
 script:
   - cd src
   - scrapy crawl collector
