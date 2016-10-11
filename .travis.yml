@@ -9,3 +9,5 @@ install:
   - pip install -r requirements.txt
 script:
   - scrapy bench
+  - cd qetesh-src
+  - scrapy crawl collector --set CLOSESPIDER_ITEMCOUNT=1 --loglevel WARNING
