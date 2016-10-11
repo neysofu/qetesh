@@ -1,2 +1,2 @@
-scrapy==0.24
+scrapy==1.2
 bs4
