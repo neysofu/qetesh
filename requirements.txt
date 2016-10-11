@@ -1,2 +1,2 @@
-scrapy
-bs4
+scrapy==0.24
+bs4==4.4.0
