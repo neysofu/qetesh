@@ -4,7 +4,7 @@ from harvest.items import BotUserComment
 
 class BotCollector(scrapy.spiders.Spider):
 
-    __home__ = 'http://www.youporn.com'
+    __home__ = 'https://www.youporn.com'
     __ajax__ = __home__ + '/ajax/video/comments/'
 
     name = 'collector'
