@@ -1,2 +1,2 @@
-scrapy==1.2
-bs4
+scrapy==1.4
+beautifulsoup4==4.6
