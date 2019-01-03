@@ -1,2 +1,2 @@
 # Qetesh ![Build status](https://travis-ci.org/neysofu/qetesh.svg?branch=master) ![NSFW](https://img.shields.io/badge/warning-NSFW-red.svg)
-Qetesh is a tiny Python project built on the top of [Scrapy](http://scrapy.org); when executed, the script will start scraping the website www.youporn.com for users' comments. I haven't explored the possibilities just yet, but it seems like valuable data for profanity detectors and such.
+Qetesh is a tiny Python project built on the top of [Scrapy](http://scrapy.org); when executed, the script will start scraping the website youporn.com for users' comments. I haven't explored the possibilities just yet, but it seems like valuable data for profanity detectors and such.
